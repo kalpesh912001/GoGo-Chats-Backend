@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "gogo-chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "underscoredAll": true
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "gogo-chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "underscoredAll": true
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "gogo-chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "underscoredAll": true
+    }
+  }
+}
